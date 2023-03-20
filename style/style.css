@@ -1,0 +1,171 @@
+.all-block {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.Architectural-Photography {
+
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+
+}
+.Architectural-Photography_title {
+    font-family: 'Delius Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.Architectural-Photography_Gallery {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 30px;
+grid-auto-rows: 370px;
+grid-template-areas:
+ "1top 2top 2top"
+ "1middle 1middle 2middle"
+ "1bottom 2bottom 2bottom";
+}
+
+
+.Architectural-Photography_Gallery-item_1 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;  
+
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("/img/Architectural_Photography/1.jpg");
+    box-sizing: 100% 100%;
+    grid-area: 1top;
+
+}
+
+.Architectural-Photography_text-name {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.Architectural-Photography_text-data {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #E0E0E0;
+}
+
+.Architectural-Photography_Gallery-item_2 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;  
+
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("/img/Architectural_Photography/2.jpg");
+    box-sizing: 100% 100%;
+
+    grid-area: 2top;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    
+}
+
+.Architectural-Photography_Gallery-item_3 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;  
+
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("/img/Architectural_Photography/3.jpg");
+    box-sizing: 100% 100%;
+
+   grid-area: 1middle;
+   grid-column-start: 1;
+   grid-column-end: 3;
+  
+}
+
+.Architectural-Photography_Gallery-item_4 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;  
+
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("/img/Architectural_Photography/4.jpg");
+    box-sizing: 100% 100%;
+    grid-area: 2middle;
+}
+
+.Architectural-Photography_Gallery-item_5 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;  
+
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("/img/Architectural_Photography/5.jpg");
+    box-sizing: 100% 100%;
+
+    grid-area: 1bottom;
+}
+
+.Architectural-Photography_Gallery-item_6 {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%; 
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;  
+
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%), url("/img/Architectural_Photography/6.jpg");
+    box-sizing: 100% 100%;
+    
+    grid-area: 2bottom;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+
