@@ -7,8 +7,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 120px;
 }
-.Architectural-Photography_title {
+.Section_title {
   font-family: "Delius Unicase";
   font-style: normal;
   font-weight: 400;
@@ -32,9 +33,9 @@
     "1bottom 2bottom 2bottom";
 }
 
-.Architectural-Photography_Gallery-item_1 {
+.Architectural-Photography_Gallery div {
   border-radius: 20px;
- 
+
   width: 100%;
   height: 100%;
 
@@ -42,7 +43,15 @@
   align-items: flex-end;
   justify-content: space-between;
   gap: 8px;
+}
 
+.Architectural-Photography_Gallery-item_1:hover {
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Architectural_Photography/1.jpg");
+  box-sizing: 100% 100%; 
+  }
+
+.Architectural-Photography_Gallery-item_1 {
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -54,7 +63,7 @@
   grid-area: 1top;
 }
 
-.Architectural-Photography_text-name {
+.Span_text-name {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -65,7 +74,7 @@
   color: #ffffff;
 }
 
-.Architectural-Photography_text-data {
+.Span_text-data {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -76,16 +85,6 @@
 }
 
 .Architectural-Photography_Gallery-item_2 {
-  border-radius: 20px;
-
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 8px;
-
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -100,17 +99,13 @@
   grid-column-end: 4;
 }
 
+.Architectural-Photography_Gallery-item_2:hover {
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Architectural_Photography/2.jpg");
+  box-sizing: 100% 100%; 
+}
+
 .Architectural-Photography_Gallery-item_3 {
-  border-radius: 20px;
- 
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 8px;
-
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -125,17 +120,13 @@
   grid-column-end: 3;
 }
 
+.Architectural-Photography_Gallery-item_3:hover {
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Architectural_Photography/3.jpg");
+  box-sizing: 100% 100%; 
+}
+
 .Architectural-Photography_Gallery-item_4 {
-  border-radius: 20px;
-  
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 8px;
-
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -147,17 +138,13 @@
   grid-area: 2middle;
 }
 
+.Architectural-Photography_Gallery-item_4:hover {
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Architectural_Photography/4.jpg");
+  box-sizing: 100% 100%; 
+}
+
 .Architectural-Photography_Gallery-item_5 {
-  border-radius: 20px;
- 
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 8px;
-
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -166,21 +153,16 @@
     ),
     url("/img/Architectural_Photography/5.jpg");
   box-sizing: 100% 100%;
-
   grid-area: 1bottom;
 }
 
+.Architectural-Photography_Gallery-item_5:hover {
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Architectural_Photography/5.jpg");
+  box-sizing: 100% 100%; 
+}
+
 .Architectural-Photography_Gallery-item_6 {
-  border-radius: 20px;
-  
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 8px;
-
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -193,4 +175,400 @@
   grid-area: 2bottom;
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+.Architectural-Photography_Gallery-item_6:hover {
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Architectural_Photography/6.jpg");
+  box-sizing: 100% 100%; 
+}
+
+.Still-Life-Photography {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 120px;
+}
+
+.Still-Life-Photography_Gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: 370px;
+  grid-template-areas:
+    "1top 2top 2top"
+    "1middle 1middle 2middle"
+    "1bottom 1bottom 2bottom";
+}
+
+.Still-Life-Photography_Gallery div {
+  border-radius: 20px;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.Still-Life-Photography_Gallery_item_1 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Still_Life_Photography/1.jpg");
+
+  box-sizing: 100% 100%;
+  grid-area: 1top;
+}
+
+.Still-Life-Photography_Gallery_item_1:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Still_Life_Photography/1.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Still-Life-Photography_Gallery_item_2 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Still_Life_Photography/2.jpg");
+
+  box-sizing: 100% 100%;
+
+  grid-area: 2top;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.Still-Life-Photography_Gallery_item_2:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Still_Life_Photography/2.jpg");
+  box-sizing: 100% 100%;
+}
+
+
+.Still-Life-Photography_Gallery_item_3 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Still_Life_Photography/3.jpg");
+
+  box-sizing: 100% 100%;
+
+  grid-area: 1middle;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.Still-Life-Photography_Gallery_item_3:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Still_Life_Photography/3.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Still-Life-Photography_Gallery_item_4 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Still_Life_Photography/4.jpg");
+
+  box-sizing: 100% 100%;
+
+  grid-area: 2middle;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.Still-Life-Photography_Gallery_item_4:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Still_Life_Photography/4.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Still-Life-Photography_Gallery_item_5 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Still_Life_Photography/5.jpg");
+
+  box-sizing: 100% 100%;
+
+  grid-area: 1bottom;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.Still-Life-Photography_Gallery_item_5:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Still_Life_Photography/5.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Still-Life-Photography_Gallery_item_6 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Still_Life_Photography/6.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: 2bottom;
+}
+
+.Still-Life-Photography_Gallery_item_6:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Still_Life_Photography/6.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 120px;
+}
+
+.Portrait-and-Fashion-Photography_Gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: 370px;
+  grid-template-areas:
+    "top1 top2 top3"
+    "middle1 middle2 middle3"
+    "1bottom1 2bottom1 3bottom1"
+    "1bottom2 2bottom2 3bottom2";
+}
+
+.Portrait-and-Fashion-Photography_Gallery div {
+  border-radius: 20px;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_1 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/1.jpg");
+
+  box-sizing: 100% 100%;
+  grid-area: top1;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_1:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/1.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_2 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/2.jpg");
+
+  box-sizing: 100% 100%;
+
+  grid-area: top2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_2:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/2.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_3 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/3.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: top3;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_3:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/3.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_4 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/4.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: middle1;
+}
+.Portrait-and-Fashion-Photography_Gallery_item_4:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/4.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_5 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/5.jpg");
+
+  box-sizing: 100% 100%;
+
+  grid-area: middle3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_5:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/5.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_6 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/6.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: 1bottom1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_6:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/6.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_7 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/7.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: 2bottom1;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_7:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/7.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_8 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/8.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: 3bottom1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_8:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/8.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_9 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/9.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: 1bottom2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_9:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/9.jpg");
+  box-sizing: 100% 100%;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_10 {
+  background: linear-gradient(
+      360deg,
+      #241f24 0%,
+      rgba(91, 91, 91, 0.447552) 34.11%,
+      rgba(187, 186, 192, 0.26) 62.5%
+    ),
+    url("/img/Portrait_and_Fashion_Photography/10.jpg");
+  box-sizing: 100% 100%;
+
+  grid-area: 3bottom2;
+}
+
+.Portrait-and-Fashion-Photography_Gallery_item_10:hover{
+  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  url("/img/Portrait_and_Fashion_Photography/10.jpg");
+  box-sizing: 100% 100%;
 }
