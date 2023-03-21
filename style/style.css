@@ -22,6 +22,21 @@
   color: #000000;
 }
 
+
+.icon {
+  width: 40px;
+height: 40px;
+
+background: #E0E0E0;
+border-radius: 8px;
+ margin-top: 0;
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-start;
+
+}
+
+
 .Architectural-Photography_Gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -37,7 +52,7 @@
   border-radius: 20px;
 
   width: 100%;
-  height: 100%;
+ 
 
   display: flex;
   align-items: flex-end;
@@ -45,13 +60,31 @@
   gap: 8px;
 }
 
-.Architectural-Photography_Gallery-item_1:hover {
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+.icon-block {
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+opacity: 0;
+}
+
+.icon-block::after {
+  opacity: 1;
+}
+
+.Architectural-Photography_Gallery-item_1::after {
+  background: 
   url("/img/Architectural_Photography/1.jpg");
-  box-sizing: 100% 100%; 
   }
 
+  .Architectural-Photography_Gallery-item_1:hover .icon-block { opacity: 0.5;}
+  .Architectural-Photography_Gallery-item_1:hover .icon-block:hover { opacity: 1;}
+
+  
+
 .Architectural-Photography_Gallery-item_1 {
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(
       360deg,
       #241f24 0%,
@@ -61,6 +94,10 @@
     url("/img/Architectural_Photography/1.jpg");
   box-sizing: 100% 100%;
   grid-area: 1top;
+}
+
+.text {
+  margin-top: auto;
 }
 
 .Span_text-name {
@@ -100,9 +137,9 @@
 }
 
 .Architectural-Photography_Gallery-item_2:hover {
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Architectural_Photography/2.jpg");
-  box-sizing: 100% 100%; 
+
 }
 
 .Architectural-Photography_Gallery-item_3 {
@@ -121,9 +158,9 @@
 }
 
 .Architectural-Photography_Gallery-item_3:hover {
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Architectural_Photography/3.jpg");
-  box-sizing: 100% 100%; 
+  
 }
 
 .Architectural-Photography_Gallery-item_4 {
@@ -139,9 +176,9 @@
 }
 
 .Architectural-Photography_Gallery-item_4:hover {
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Architectural_Photography/4.jpg");
-  box-sizing: 100% 100%; 
+  
 }
 
 .Architectural-Photography_Gallery-item_5 {
@@ -157,9 +194,9 @@
 }
 
 .Architectural-Photography_Gallery-item_5:hover {
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Architectural_Photography/5.jpg");
-  box-sizing: 100% 100%; 
+  
 }
 
 .Architectural-Photography_Gallery-item_6 {
@@ -178,9 +215,9 @@
 }
 
 .Architectural-Photography_Gallery-item_6:hover {
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Architectural_Photography/6.jpg");
-  box-sizing: 100% 100%; 
+  
 }
 
 .Still-Life-Photography {
@@ -227,9 +264,9 @@
 }
 
 .Still-Life-Photography_Gallery_item_1:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Still_Life_Photography/1.jpg");
-  box-sizing: 100% 100%;
+ 
 }
 
 .Still-Life-Photography_Gallery_item_2 {
@@ -249,9 +286,9 @@
 }
 
 .Still-Life-Photography_Gallery_item_2:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Still_Life_Photography/2.jpg");
-  box-sizing: 100% 100%;
+ ;
 }
 
 
@@ -274,9 +311,9 @@
 }
 
 .Still-Life-Photography_Gallery_item_3:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Still_Life_Photography/3.jpg");
-  box-sizing: 100% 100%;
+
 }
 
 .Still-Life-Photography_Gallery_item_4 {
@@ -296,9 +333,9 @@
 }
 
 .Still-Life-Photography_Gallery_item_4:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Still_Life_Photography/4.jpg");
-  box-sizing: 100% 100%;
+ 
 }
 
 .Still-Life-Photography_Gallery_item_5 {
@@ -317,9 +354,9 @@
   grid-column-end: 3;
 }
 .Still-Life-Photography_Gallery_item_5:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Still_Life_Photography/5.jpg");
-  box-sizing: 100% 100%;
+  
 }
 
 .Still-Life-Photography_Gallery_item_6 {
@@ -336,9 +373,9 @@
 }
 
 .Still-Life-Photography_Gallery_item_6:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Still_Life_Photography/6.jpg");
-  box-sizing: 100% 100%;
+  
 }
 
 .Portrait-and-Fashion-Photography {
@@ -386,9 +423,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_1:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/1.jpg");
-  box-sizing: 100% 100%;
+
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_2 {
@@ -408,9 +445,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_2:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/2.jpg");
-  box-sizing: 100% 100%;
+
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_3 {
@@ -427,9 +464,8 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_3:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/3.jpg");
-  box-sizing: 100% 100%;
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_4 {
@@ -445,9 +481,9 @@
   grid-area: middle1;
 }
 .Portrait-and-Fashion-Photography_Gallery_item_4:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background:
   url("/img/Portrait_and_Fashion_Photography/4.jpg");
-  box-sizing: 100% 100%;
+ 
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_5 {
@@ -467,9 +503,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_5:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/5.jpg");
-  box-sizing: 100% 100%;
+  
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_6 {
@@ -488,9 +524,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_6:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/6.jpg");
-  box-sizing: 100% 100%;
+  
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_7 {
@@ -507,9 +543,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_7:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/7.jpg");
-  box-sizing: 100% 100%;
+ 
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_8 {
@@ -528,9 +564,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_8:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/8.jpg");
-  box-sizing: 100% 100%;
+ 
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_9 {
@@ -549,9 +585,9 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_9:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/9.jpg");
-  box-sizing: 100% 100%;
+ 
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_10 {
@@ -568,7 +604,7 @@
 }
 
 .Portrait-and-Fashion-Photography_Gallery_item_10:hover{
-  background: linear-gradient(270deg, #241F24 1.04%, rgba(91, 91, 91, 0.26) 6.99%, rgba(187, 186, 192, 0) 12.29%),
+  background: 
   url("/img/Portrait_and_Fashion_Photography/10.jpg");
-  box-sizing: 100% 100%;
+  
 }
